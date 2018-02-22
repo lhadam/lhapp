@@ -21,7 +21,7 @@ class App extends React.Component {
     return (
       <Popover
         content={<a onClick={this.hide}>Close</a>}
-        title="Title"
+        title="Title New"
         trigger="click"
         visible={this.state.visible}
         onVisibleChange={this.handleVisibleChange}
